@@ -63,7 +63,7 @@
 }
 
 .hero1 {
-  background-image: url('../images/Rectangle-9.png');
+  background-image: url("../images/Rectangle-9.png");
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -156,6 +156,7 @@
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .brand {
@@ -183,7 +184,7 @@
   padding: 29px 20px;
   font-weight: 400;
   line-height: 1;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .nav-link:hover {
@@ -226,7 +227,7 @@
   padding-left: 17px;
   padding-right: 17px;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .hero-button-1:hover {
@@ -373,7 +374,8 @@
   height: 540px;
 }
 
-.mask, .slide {
+.mask,
+.slide {
   width: 100%;
   height: 100%;
 }
@@ -399,11 +401,11 @@
 }
 
 .paragraph {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .paragraph.footer__copy__60 {
-  opacity: .6;
+  opacity: 0.6;
   margin-bottom: 20px;
   line-height: 1;
 }
@@ -426,7 +428,7 @@
 }
 
 .tab {
-  opacity: .5;
+  opacity: 0.5;
   color: var(--black);
   background-color: #0000;
   border-left: 2px solid #0000;
@@ -501,7 +503,7 @@
   background-color: var(--dark-turquoise);
   color: #14161f;
   height: 70px;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 
 .submit-button:hover {
@@ -544,7 +546,8 @@
 }
 
 .hero2 {
-  background-image: linear-gradient(#0003, #0003), url('../images/61d49964-7deb-4744-a69b-de390dcb205e.JPG');
+  background-image: linear-gradient(#0003, #0003),
+    url("../images/61d49964-7deb-4744-a69b-de390dcb205e.JPG");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -554,7 +557,7 @@
 }
 
 .full__image__seect {
-  background-image: url('../images/465bb2f9-dac9-4824-96d6-22f654ab5c06.JPG');
+  background-image: url("../images/465bb2f9-dac9-4824-96d6-22f654ab5c06.JPG");
   background-position: 50% 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -564,7 +567,7 @@
 }
 
 .tab-op-2 {
-  opacity: .5;
+  opacity: 0.5;
   color: var(--black);
   background-color: #0000;
   border-bottom: 2px solid #0000;
@@ -593,7 +596,8 @@
 }
 
 .hero-3 {
-  background-image: linear-gradient(#0003, #0003), url('../images/PHOTO-2024-05-19-15-48-23.jpg');
+  background-image: linear-gradient(#0003, #0003),
+    url("../images/PHOTO-2024-05-19-15-48-23.jpg");
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -610,18 +614,21 @@
 }
 
 .hero-3.galerie {
-  background-image: linear-gradient(#00000026, #00000026), url('../images/465bb2f9-dac9-4824-96d6-22f654ab5c06.JPG');
+  background-image: linear-gradient(#00000026, #00000026),
+    url("../images/465bb2f9-dac9-4824-96d6-22f654ab5c06.JPG");
   background-position: 0 0, 50% 100%;
   background-attachment: scroll, fixed;
   margin-top: 0;
 }
 
 .hero-3.informace {
-  background-image: linear-gradient(#0003, #0003), url('../images/7f40923c-aae4-419b-9b40-abedbe181625.JPG');
+  background-image: linear-gradient(#0003, #0003),
+    url("../images/7f40923c-aae4-419b-9b40-abedbe181625.JPG");
 }
 
 .hero-3.tenerife {
-  background-image: linear-gradient(#0000, #0000), url('../images/Tenerife-2024-Masca-Valley-Shutterstock-2329739923-Hybris.jpg');
+  background-image: linear-gradient(#0000, #0000),
+    url("../images/Tenerife-2024-Masca-Valley-Shutterstock-2329739923-Hybris.jpg");
 }
 
 .simple-image-section {
@@ -652,7 +659,7 @@
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-rows: auto;
-  grid-template-columns: .75fr 1fr 1fr;
+  grid-template-columns: 0.75fr 1fr 1fr;
   grid-auto-columns: 1fr;
   display: grid;
   position: relative;
@@ -662,7 +669,7 @@
   color: #14161f;
   font-weight: 400;
   text-decoration: underline;
-  transition: color .2s;
+  transition: color 0.2s;
 }
 
 .link-vylety:hover {
@@ -753,7 +760,7 @@
 
 .lottie-tab-icon {
   z-index: 10;
-  opacity: .5;
+  opacity: 0.5;
   filter: invert();
   width: 14px;
   position: relative;
@@ -770,7 +777,7 @@
   width: 100%;
   padding: 20px 0;
   text-decoration: none;
-  transition: padding .5s cubic-bezier(.25, .46, .45, .94);
+  transition: padding 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   position: relative;
   overflow: hidden;
 }
@@ -807,7 +814,7 @@
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   color: #080808;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
   grid-template-rows: auto;
   grid-template-columns: 1fr auto;
@@ -1096,7 +1103,8 @@
     margin-top: 0;
   }
 
-  .tab, .tab.w--current {
+  .tab,
+  .tab.w--current {
     font-size: 20px;
   }
 
@@ -1124,7 +1132,7 @@
   }
 
   .vylety_grid {
-    grid-template-columns: .75fr;
+    grid-template-columns: 0.75fr;
   }
 
   .div-block-3 {
@@ -1158,7 +1166,8 @@
     min-height: 60vh;
   }
 
-  .h1.white__text, .h1.white__text.alternative {
+  .h1.white__text,
+  .h1.white__text.alternative {
     font-size: 80px;
   }
 
@@ -1329,7 +1338,8 @@
     font-size: 20px;
   }
 
-  .paragraph.footer__copy__60, .paragraph.center {
+  .paragraph.footer__copy__60,
+  .paragraph.center {
     text-align: center;
   }
 
@@ -1426,7 +1436,8 @@
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-772110d0, #w-node-b5344b5e-23e0-94d1-a1bd-e9400e04be3c-772110d0 {
+#w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-772110d0,
+#w-node-b5344b5e-23e0-94d1-a1bd-e9400e04be3c-772110d0 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -1448,7 +1459,8 @@
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-2e6b9b7d, #w-node-_47b5d828-4c3e-0807-8906-f91a1a250c4f-2e6b9b7d {
+#w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-2e6b9b7d,
+#w-node-_47b5d828-4c3e-0807-8906-f91a1a250c4f-2e6b9b7d {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -1461,7 +1473,8 @@
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-08425faf, #w-node-c4cb11c4-82c3-5480-e614-875f934ea11e-08425faf {
+#w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-08425faf,
+#w-node-c4cb11c4-82c3-5480-e614-875f934ea11e-08425faf {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -1479,12 +1492,14 @@
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-_62de964e-8cd1-f366-1dfd-8f559aeb3f0d-f419fba0, #w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-f419fba0 {
+#w-node-_62de964e-8cd1-f366-1dfd-8f559aeb3f0d-f419fba0,
+#w-node-_9690dfb9-09cf-fb90-a272-6fe09207406f-f419fba0 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-_5b250bf5-fa04-e919-1987-5c659c79be2f-d15261a5, #w-node-_5b250bf5-fa04-e919-1987-5c659c79be2f-a461e8ab {
+  #w-node-_5b250bf5-fa04-e919-1987-5c659c79be2f-d15261a5,
+  #w-node-_5b250bf5-fa04-e919-1987-5c659c79be2f-a461e8ab {
     grid-template-rows: auto auto;
     grid-template-columns: 1fr 1fr;
   }
@@ -1505,7 +1520,8 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  #w-node-e1b15adf-ff13-e0e8-45bd-1c6c605e92f9-2e6b9b7d, #w-node-e1b15adf-ff13-e0e8-45bd-1c6c605e92f9-08425faf {
+  #w-node-e1b15adf-ff13-e0e8-45bd-1c6c605e92f9-2e6b9b7d,
+  #w-node-e1b15adf-ff13-e0e8-45bd-1c6c605e92f9-08425faf {
     grid-area: span 1 / span 2 / span 1 / span 2;
     align-self: start;
   }
@@ -1521,115 +1537,114 @@
   }
 }
 
-
 @font-face {
-  font-family: 'Quincy cf';
-  src: url('../fonts/Quincy-CF-Black.ttf') format('truetype');
+  font-family: "Quincy cf";
+  src: url("../fonts/Quincy-CF-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Quincy cf';
-  src: url('../fonts/Quincy-CF-Bold.ttf') format('truetype');
+  font-family: "Quincy cf";
+  src: url("../fonts/Quincy-CF-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Quincy cf';
-  src: url('../fonts/Quincy-CF-Light.ttf') format('truetype');
+  font-family: "Quincy cf";
+  src: url("../fonts/Quincy-CF-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Quincy cf';
-  src: url('../fonts/Quincy-CF.ttf') format('truetype');
+  font-family: "Quincy cf";
+  src: url("../fonts/Quincy-CF.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-BlackItalic.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-BlackItalic.otf") format("opentype");
   font-weight: 900;
   font-style: italic;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-BoldItalic.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-BoldItalic.otf") format("opentype");
   font-weight: 700;
   font-style: italic;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-Light.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-Bold.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-LightItalic.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-LightItalic.otf") format("opentype");
   font-weight: 300;
   font-style: italic;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-Medium.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-Medium.otf") format("opentype");
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-MediumItalic.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-MediumItalic.otf") format("opentype");
   font-weight: 500;
   font-style: italic;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-Black.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-Black.otf") format("opentype");
   font-weight: 900;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-Regular.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-Thin.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-Thin.otf") format("opentype");
   font-weight: 100;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-ThinItalic.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-ThinItalic.otf") format("opentype");
   font-weight: 100;
   font-style: italic;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Colfax';
-  src: url('../fonts/Colfax-RegularItalic.otf') format('opentype');
+  font-family: "Colfax";
+  src: url("../fonts/Colfax-RegularItalic.otf") format("opentype");
   font-weight: 400;
   font-style: italic;
   font-display: auto;
