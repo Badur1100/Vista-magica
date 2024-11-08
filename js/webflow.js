@@ -11095,7 +11095,7 @@
                   : t || self).lottie = e());
         })(exports, function () {
           "use strict";
-          var svgNS = "http://www.w3.org/2000/svg",
+          var svgNS = "https://www.w3.org/2000/svg",
             locationHref = "",
             _useWebWorker = false,
             initialDefaultFrame = -999999,
@@ -12178,7 +12178,7 @@
                         false
                       ),
                       s2.setAttributeNS(
-                        "http://www.w3.org/1999/xlink",
+                        "https://www.w3.org/1999/xlink",
                         "href",
                         i2
                       ),
@@ -18950,7 +18950,7 @@
                         3 === t ? "luminance" : "alpha"
                       ),
                       (r = createNS("use")).setAttributeNS(
-                        "http://www.w3.org/1999/xlink",
+                        "https://www.w3.org/1999/xlink",
                         "href",
                         "#" + this.layerId
                       ),
@@ -18999,7 +18999,7 @@
                       ),
                       h.appendChild(f),
                       (r = createNS("use")).setAttributeNS(
-                        "http://www.w3.org/1999/xlink",
+                        "https://www.w3.org/1999/xlink",
                         "href",
                         "#" + this.layerId
                       ),
@@ -19122,7 +19122,7 @@
                     this.globalData.renderConfig.imagePreserveAspectRatio
                 ),
                 this.innerElem.setAttributeNS(
-                  "http://www.w3.org/1999/xlink",
+                  "https://www.w3.org/1999/xlink",
                   "href",
                   t
                 ),
@@ -21522,7 +21522,7 @@
                       ),
                       (n.textContent = o[t].val),
                       n.setAttributeNS(
-                        "http://www.w3.org/XML/1998/namespace",
+                        "https://www.w3.org/XML/1998/namespace",
                         "xml:space",
                         "preserve"
                       );
@@ -21667,11 +21667,11 @@
             (SVGRendererBase.prototype.configAnimation = function (t) {
               this.svgElement.setAttribute(
                 "xmlns",
-                "http://www.w3.org/2000/svg"
+                "https://www.w3.org/2000/svg"
               ),
                 this.svgElement.setAttribute(
                   "xmlns:xlink",
-                  "http://www.w3.org/1999/xlink"
+                  "https://www.w3.org/1999/xlink"
                 ),
                 this.renderConfig.viewBoxSize
                   ? this.svgElement.setAttribute(
@@ -24311,7 +24311,7 @@
                 } else if (
                   ((h.textContent = f[r].val),
                   h.setAttributeNS(
-                    "http://www.w3.org/XML/1998/namespace",
+                    "https://www.w3.org/XML/1998/namespace",
                     "xml:space",
                     "preserve"
                   ),
@@ -24595,7 +24595,7 @@
                     this.assetData.h + "px"
                   ),
                   this.imageElem.setAttributeNS(
-                    "http://www.w3.org/1999/xlink",
+                    "https://www.w3.org/1999/xlink",
                     "href",
                     t
                   ),
@@ -29188,7 +29188,7 @@
       }
       if (false) {
         (0, _warning2["default"])(
-          "You are currently using minified code outside of NODE_ENV === 'production'. This means that you are running a slower development build of Redux. You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify or DefinePlugin for webpack (http://stackoverflow.com/questions/30030031) to ensure you have the correct code for your production build."
+          "You are currently using minified code outside of NODE_ENV === 'production'. This means that you are running a slower development build of Redux. You can use loose-envify (https://github.com/zertosh/loose-envify) for browserify or DefinePlugin for webpack (https://stackoverflow.com/questions/30030031) to ensure you have the correct code for your production build."
         );
       }
       exports2.createStore = _createStore2["default"];
@@ -38645,7 +38645,7 @@
         }
         function svgDataUri(width2, height2) {
           var svg =
-            '<svg xmlns="http://www.w3.org/2000/svg" width="' +
+            '<svg xmlns="https://www.w3.org/2000/svg" width="' +
             width2 +
             '" height="' +
             height2 +
@@ -39633,7 +39633,7 @@
 /*!
  * Webflow._ (aka) Underscore.js 1.6.0 (custom build)
  *
- * http://underscorejs.org
+ * https://underscorejs.org
  * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
  * Underscore may be freely distributed under the MIT license.
  * @license MIT
