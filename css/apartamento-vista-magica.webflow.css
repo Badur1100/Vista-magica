@@ -53,6 +53,7 @@
   background-color: var(--white-smoke);
   color: #14161f;
   height: 100%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 150%;
 }
@@ -99,7 +100,8 @@
 
 .h1.white__text {
   color: var(--white);
-  font-weight: 500;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .h1.white__text.alternative {
@@ -1261,8 +1263,8 @@
 
 @media screen and (max-width: 479px) {
   .wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .hero-text-wrapper {
@@ -1276,6 +1278,7 @@
 
   .h1.white__text {
     font-size: 40px;
+    font-weight: 700;
   }
 
   .h1.white__text.alternative {
@@ -1302,12 +1305,22 @@
     padding: 13px 15px;
   }
 
+  .into__section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .h2 {
     font-size: 28px;
   }
 
   .h2.center {
     text-align: center;
+    font-size: 24px;
+  }
+
+  .icons-group.max__780px {
+    margin-top: 50px;
   }
 
   .grid {
@@ -1344,12 +1357,18 @@
     text-align: center;
   }
 
+  .amenities__section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .image-5 {
     height: 220px;
   }
 
   .property__features {
-    padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .grid-2 {
@@ -1366,7 +1385,7 @@
   }
 
   .grid-3 {
-    grid-row-gap: 25px;
+    grid-row-gap: 50px;
     grid-template-columns: 1fr;
     justify-items: center;
   }
@@ -1388,13 +1407,24 @@
     height: 530px;
   }
 
+  .tab-op-2 {
+    padding: 15px 20px;
+    font-size: 20px;
+  }
+
   .image-7 {
     height: 260px;
+    margin-top: 10px;
   }
 
   .hero-3 {
     background-attachment: scroll;
     min-height: 40vh;
+  }
+
+  .hero-3.galerie {
+    background-image: linear-gradient(to bottom, null, null), url('../images/465bb2f9-dac9-4824-96d6-22f654ab5c06.JPG');
+    background-position: 0 0, 50%;
   }
 
   .grid-4 {
@@ -1421,6 +1451,12 @@
 
   .lightbox-link {
     width: 100%;
+  }
+
+  .galerie {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px;
   }
 }
 
